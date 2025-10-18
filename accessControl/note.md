@@ -1,3 +1,6 @@
+
+#### <mark style="background: #D2B3FFA6;">البدايه يوم 15-10-2025</mark>
+
 # Broken Access Control — ملخص ومرجع
 
 > **ثغرة التحكم في الوصول المعطوب (Broken Access Control)**

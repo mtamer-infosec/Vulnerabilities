@@ -3,6 +3,7 @@
 > هدف الملف: شرح مركز، عملي، ومنظّم يساعدك تحل الـ labs المتعلقة بـ Access Control and Privilege Escalation بدون تفاصيلٍ تضيّعك.
 
 ---
+#### <mark style="background: #D2B3FFA6;">البدايه يوم 15-10-2025</mark>
 
 ## 1. تعريف سريع
 - **Authentication**: إثبات هوية المستخدم (login).
