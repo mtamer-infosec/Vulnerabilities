@@ -171,3 +171,16 @@ curl -i -s -X GET 'https://example.com/profile?id=124' -H 'Cookie: session=USER_
 ثغرة التحكم في الوصول من أخطر الثغرات لأنها تعتمد على أخطاء منطقية وتصميمية. الحل يبدأ بتطبيق فحوصات على الخادم، مبدأ أقل الصلاحيات، وسجلات قوية. لا تجعل واجهة المستخدم مصدر الحقيقة لصلاحيات الوصول.
 
 ---
+أنواع شائعة من الـ Access Control Failures
+
+1. IDOR (Insecure Direct Object Reference): تغيير مفتاح/معرّف للوصول لسجلات غير مملوكة.
+
+2. Elevation of Privilege: رفع دور المستخدم (user → admin).
+
+3. Missing Function-Level Access Control: وظائف محمية متاحة بدون تحقق.
+
+4. Metadata/Token Manipulation: العبث بــ JWT/كوكيز/hidden fields.
+
+5. CORS Misconfiguration: السماح لأصل خبيث بالوصول إلى الـ API.
+
+6. Missing HTTP Method Controls: السماح بـ PUT/DELETE دون تحقق.
